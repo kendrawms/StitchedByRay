@@ -1,0 +1,58 @@
+body {
+	background-image: url(../images/Background.png);
+	background-repeat: repeat;
+	font-family: "Segoe Print", "Times New Roman", serif;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: #000000;
+	border-radius: 10px;
+	box-shadow: 12px 12px 12px #FF3300;
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	}
+	
+nav a{
+	color: #FFFFFF;
+}
+	
+nav a:hover{
+	text-transform: uppercase;
+	color:FF3300;
+}
+
+main {
+	display: block;
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style: none;
+}
+
+main img {
+	width: 350px;
+	height: 350px;
+	margin-left: 25px;
+	margin-right: 25px;
+	float: left;
+	clear: none;
+}
